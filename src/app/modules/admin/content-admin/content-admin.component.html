@@ -1,7 +1,274 @@
-<main role="main" class="container">
-  <div class="jumbotron">
-    <h1>Navbar example</h1>
-    <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
-    <a class="btn btn-lg btn-primary" href="/docs/4.6/components/navbar/" role="button">View navbar docs &raquo;</a>
+<div class="container-fluid">
+  <div class="row justify-content-end">
+
+    <div id="dropdown-1" class="dropdown">
+      <a class="btn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        เลือกสถานะ
+      </a>
+
+      <div id="dropdown-item-1" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">Active</a>
+        <a class="dropdown-item" href="#">In Active</a>
+      </div>
+    </div>
+
+    <div id="dropdown-1" class="dropdown">
+      <a class="btn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fas fa-sort-amount-down"></i>จัดเรียงตาม
+      </a>
+
+      <div id="dropdown-item-1" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">อันล่าสุด</a>
+        <a class="dropdown-item" href="#">อันเก่าสุด</a>
+      </div>
+    </div>
+
+    <a id="created" routerLink="faq-create" routerLinkActive="active" class="btn btn">สร้าง FAQ</a>
+    <button id="button-1" type="button" class="btn btn">ลบ</button>
+
   </div>
-</main>
+
+  <div id="container">
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-start">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          <b>เลือกทั้งหมด</b>
+        </label>
+      </div>
+      <div class="col-md-6 d-flex justify-content-end">
+        <p><b>เลือกแล้ว 5 รายการ</b></p>
+      </div>
+    </div>
+
+    <!-- card-body -->
+    <div id="cs-body" class="card">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-4">
+            <p>Featured</p>
+          </div>
+          <div id="active" class="col-md-8 d-flex justify-content-end">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Active : In Active</label>
+            </div>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-11">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="accordion" id="accordionExample">
+
+              <div id="collapseOne-1" class="collapse show" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to
+                  the <code>.show</code> class.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-1" id="accordionExample">
+            <button id="headingOne" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne-1" aria-expanded="true" aria-controls="collapseOne-1">
+              <i class="fas fa-sort-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cs-body" class="card">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-4">
+            <p>Featured</p>
+          </div>
+          <div id="active" class="col-md-8 d-flex justify-content-end">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Active : In Active</label>
+            </div>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-11">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="accordion" id="accordionExample">
+
+              <div id="collapseOne-2" class="collapse show" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to
+                  the <code>.show</code> class.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-1" id="accordionExample">
+            <button id="headingOne" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne-2" aria-expanded="true" aria-controls="collapseOne-2">
+              <i class="fas fa-sort-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cs-body" class="card">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-4">
+            <p>Featured</p>
+          </div>
+          <div id="active" class="col-md-8 d-flex justify-content-end">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Active : In Active</label>
+            </div>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-11">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="accordion" id="accordionExample">
+
+              <div id="collapseOne-3" class="collapse show" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to
+                  the <code>.show</code> class.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-1" id="accordionExample">
+            <button id="headingOne" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne-3" aria-expanded="true" aria-controls="collapseOne-3">
+              <i class="fas fa-sort-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cs-body" class="card">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-4">
+            <p>Featured</p>
+          </div>
+          <div id="active" class="col-md-8 d-flex justify-content-end">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Active : In Active</label>
+            </div>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-11">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="accordion" id="accordionExample">
+
+              <div id="collapseOne-4" class="collapse show" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to
+                  the <code>.show</code> class.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-1" id="accordionExample">
+            <button id="headingOne" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne-4" aria-expanded="true" aria-controls="collapseOne-4">
+              <i class="fas fa-sort-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cs-body" class="card">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-md-4">
+            <p>Featured</p>
+          </div>
+          <div id="active" class="col-md-8 d-flex justify-content-end">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Active : In Active</label>
+            </div>
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-11">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="accordion" id="accordionExample">
+
+              <div id="collapseOne-5" class="collapse show" aria-labelledby="headingOne"
+                data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to
+                  the <code>.show</code> class.
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-1" id="accordionExample">
+            <button id="headingOne" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+              data-target="#collapseOne-5" aria-expanded="true" aria-controls="collapseOne-5">
+              <i class="fas fa-sort-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pagination -->
+    <app-pagination></app-pagination>
+    
+  </div>
+</div>

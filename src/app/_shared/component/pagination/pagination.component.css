@@ -1,0 +1,17 @@
+/**********pagination************/
+#a{
+  background: #1F6F8B;
+  color: #000;
+  border-radius:10px 0px 0px 10px;
+}
+
+#b{
+  background: #fff;
+  color: #000;
+}
+
+#c{
+  background: #1F6F8B;
+  color: #000;
+  border-radius:0px 10px 10px 0px;
+}

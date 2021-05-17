@@ -1,0 +1,16 @@
+/*********body**********/
+#main{
+  padding: 5%;
+  margin-top: 10px;
+}
+
+#cs-body{
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 5%;
+}
+
+.card-header{
+  border-radius: 15px 15px 0px 0px;
+  background: #1F6F8B;
+  color:  #fff;
+}

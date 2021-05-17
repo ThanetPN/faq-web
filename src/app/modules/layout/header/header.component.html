@@ -1,10 +1,46 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-  <img [src]="logo" alt="">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<header class="container-fluid">
+    <div class="row">
 
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    
-  </div>
-</nav>
+        <div class="col-md-4 d-flex justify-content-start">
+          <img [src]="logo" alt="">
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-center">
+          <input class="form-control mr-sm-2 m-4" type="text" placeholder="Search" aria-label="Search">
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-end">
+          <div class="dropdown">
+            <a class="btn btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              เลือกภาษา
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+              <a class="dropdown-item" href="#">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img [src]="images_eng" class="rounded-circle img-fluid">
+                  </div>
+                  <div class="col-md-6">
+                    <p>EN</p>
+                  </div>
+                </div>
+              </a>
+
+              <a class="dropdown-item" href="#">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img [src]="images_thai" class="rounded-circle img-fluid">
+                  </div>
+                  <div class="col-md-6">
+                    <p>TH</p>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+    </div>
+</header>

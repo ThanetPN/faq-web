@@ -1,0 +1,61 @@
+.faq-created h3{
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.faq-created-item{
+  background: #1F6F8B;
+  margin-bottom: 20px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#input-group span{
+  background: #1F6F8B;
+  border: none;
+}
+
+/*************bg-date****************/
+.card{
+  background: #1F6F8B;
+  border-radius: 5px;
+}
+#bg-date{
+  background: #1F6F8B;
+}
+
+#bg-date span{
+  background: #1F6F8B;
+  border: none;
+}
+
+/**********button***********/
+.text-center button{
+  margin-top: 20px;
+}
+
+#btn-1{
+  border: 1px solid #000;
+  background: #FFFFFF;
+  color: #000;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 20%;
+}
+
+#btn-2{
+  border: 1px solid #1A508B;
+  background: #1A508B;
+  color: #fff;
+  border-radius: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/**********switch-checkbox*************/
+#switch-checkbox label{
+  color: #fff;
+  margin-left: 15px;
+}
+

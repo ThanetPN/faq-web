@@ -1,1 +1,53 @@
-<p>faq-create works!</p>
+<div class="container-fluid">
+  <div class="faq-created">
+    <h3 class="text-center">สร้าง FAQ</h3>
+
+    <div class="faq-created-item">
+      <input type="text" class="form-control" placeholder="ชื่อเรื่อง :">
+    </div>
+
+    <div class="faq-created-item">
+      <input type="text" class="form-control" placeholder="Topic :">
+    </div>
+
+    <div id="input-group" class="input-group faq-created-item rounded">
+      <span class="input-group-text text-light">Category :</span>
+      <input type="text" class="form-control rounded" aria-label="Category" aria-describedby="basic-addon1">
+    </div>
+
+    <!-- Text editor -->
+    <app-text-editor></app-text-editor>
+
+    <app-text-editor></app-text-editor>
+
+
+    <div class="card">
+      <div class="card-body">
+        <div id="bg-date" class="row">
+          <div class="col-md-4">
+            <span class="input-group-text text-light">Effective Date : </span>
+            <input type="date" class="form-control" aria-describedby="Effective Date">
+          </div>
+
+          <div class="col-md-4">
+            <span class="input-group-text text-light" id="End Date">End Date :</span>
+            <input type="date" class="form-control" aria-describedby="End Date">
+          </div>
+
+          <div class="col-md-4">
+            <span class="input-group-text mx-1 text-light" id="Status">Status : </span>
+            <div id="switch-checkbox" class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="customSwitch1">
+              <label class="custom-control-label" for="customSwitch1">Active : In Active</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button id="btn-1" type="button" class="btn">ยกเลิก</button>
+      <button id="btn-2" type="button" class="btn">บันทึก</button>
+    </div>
+  </div>
+</div>

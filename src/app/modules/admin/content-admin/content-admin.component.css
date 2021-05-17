@@ -1,0 +1,98 @@
+.container-fluid{
+  margin-top: 50px;
+}
+
+/*************container*****************/
+#container{
+  padding: 8%;
+}
+
+#container input{
+  width: 25px;
+  height: 25px;
+  margin-left: 40px;
+}
+
+#container label{
+  margin-left: 80px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+/************button***********/
+#dropdown-1{
+  background: #11698E;
+  border-radius: 10px;
+  margin-right: 30px;
+  padding: 5px;
+}
+
+#dropdown-1 a{
+  color: #fff;
+}
+
+/***********font*************/
+#dropdown-item-1 a{
+  color: #000;
+}
+
+/**************created***********/
+#created{
+  background: #16C79A;
+  margin-right: 30px;
+  color: #fff;
+  border-radius: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 10px;
+}
+
+/**************button-1************/
+#button-1{
+  background: #EF1818;
+  margin-right: 30px;
+  color: #fff;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+/*************body*************/
+#main{
+  padding: 5%;
+}
+
+#cs-body{
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 5%;
+}
+
+#cs-body input{
+  margin-top: 30px;
+}
+
+.card-header{
+  border-radius: 15px 15px 0px 0px;
+  background: #1F6F8B;
+  color:  #fff;
+}
+
+.card-header p{
+  margin-left: 70px;
+  color:  #fff;
+  margin-top: 20px;
+}
+
+
+/**********active right****************/
+
+#active label{
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+#active i{
+  margin-right: 50px;
+  margin-top: 25px;
+}

@@ -1,0 +1,27 @@
+#sidebarMenu{
+  background: #1F6F8B;
+  padding: 20px;
+}
+
+#card-item{
+  background: #1F6F8B;
+  border: 2px solid #fff;
+}
+
+#card-item button{
+  border-radius: 30px;
+  margin-right: 2%;
+  margin-top: 3%;
+}
+
+#body-item{
+  background: #E5E5E5;
+}
+
+#card-body{
+  border-radius: 15px;
+}
+
+#a{
+margin-bottom: 400%;
+}

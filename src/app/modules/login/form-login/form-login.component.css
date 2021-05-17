@@ -1,0 +1,36 @@
+#body-item{
+  background: #1F6F8B;
+}
+
+.card{
+  border-radius: 15px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.form-floating{
+  margin-bottom: 5%;
+}
+
+#button-login button{
+  background: #1F6F8B;
+  border-radius: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-bottom: 4%;
+}
+
+.row input{
+  border-radius: 10px;
+  border: 1px solid #1F6F8B;
+}
+
+.row label{
+  color: #1F6F8B;
+}
+
+h4{
+  color: #1F6F8B;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}

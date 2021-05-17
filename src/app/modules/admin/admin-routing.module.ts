@@ -5,8 +5,12 @@ import { FaqCreateComponent } from './faq-create/faq-create.component';
 
 
 const routes: Routes = [
-  { path: '', component: ContentAdminComponent },
-  { path: 'faq-create', component: FaqCreateComponent}
+  {
+    path: '', component: ContentAdminComponent
+  },
+  {
+    path: 'faq-create', component: FaqCreateComponent
+  }
 
 ];
 

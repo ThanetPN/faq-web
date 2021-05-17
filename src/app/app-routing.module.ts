@@ -5,7 +5,13 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./modules/layout/layout.module').then(m => m.LayoutModule)
+  },
+
+  {
+    path: 'admin-login',
+    loadChildren: () => import('./modules/login/login.module').then(m => m.LoginModule)
   }
+
 ];
 
 @NgModule({

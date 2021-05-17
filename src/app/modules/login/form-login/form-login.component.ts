@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-login.component.css']
 })
 export class FormLoginComponent implements OnInit {
+  logo = './assets/images/logo.png';
 
   constructor() { }
 
